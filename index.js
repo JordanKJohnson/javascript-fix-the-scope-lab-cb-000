@@ -19,8 +19,6 @@ function funkyFunction() {
     var funky = "FUNKY!";
     return funky;
   }
-
-  return inner();
 }
 
 var theFunk = funkyFunction()
