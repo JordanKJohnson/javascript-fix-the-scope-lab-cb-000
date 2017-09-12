@@ -15,11 +15,13 @@ function add2(n) {
 }
 
 function funkyFunction() {
-  return function() {
+  function inner() {
     var funky = "FUNKY!";
     return funky;
   }
+
+  return inner();
 }
 
-var theFunk = funkyFunction().toString();
+var theFunk = funkyFunction().
 theFunk
