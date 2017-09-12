@@ -14,11 +14,11 @@ function add2(n) {
   return n + two
 }
 
-function funkyFunction() {
-  return function() {
-    return "FUNKY!"
+function outerFunction() { 
+  return function innerScope() { 
+    return "FUNKY!";
   }
 }
 
-var theFunk = funkyFunction()
+var theFunk = outerFunction()
 theFunk
