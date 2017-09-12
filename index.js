@@ -14,8 +14,8 @@ function add2(n) {
   return n + two
 }
 
-function outerFunction() { 
-  return function innerScope() { 
+function outerFunction() {
+  return function innerScope() {
     return "FUNKY!";
   }
 }
