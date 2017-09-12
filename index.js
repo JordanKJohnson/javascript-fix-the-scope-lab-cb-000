@@ -23,5 +23,5 @@ function funkyFunction() {
   return inner();
 }
 
-var theFunk = funkyFunction().
+var theFunk = funkyFunction()
 theFunk
